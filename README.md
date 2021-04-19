@@ -1,2 +1,2 @@
-# fei-upb
-UPB - Úvod do počítačovej bezpečnosti (FEI - ZS 2020/2021)
+# UPB
+Úvod do počítačovej bezpečnosti (FEI - ZS 2020/2021)
