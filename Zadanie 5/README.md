@@ -1,0 +1,5 @@
+# Zadanie 5: Implementácia správy používateľských hesiel
+
+Cieľom tohto zadania je doprogramovať k štvrtemu zadania funkcie na kontrolu zložitosti hesla ( aby užívateľ nemohol registrovať ľahko prelomiteľné heslo) Teda mali by byť heslá overované či spĺňajú bezpečnostné odporúčania t.j. použité veľké a malé písmená, číslice, minimálna dĺžka hesla, či sa heslo nenachádza v slovníku...  Pre kontrolu hesla voči slovníku, (teda či sa na heslo neda použiť jednoduchý slovníkový útok) sa odporúča  využívať už existujúce knižnice napr. vt-password (už staršia) alebo  Passay, popr. iné. Samozrejme môžete vytvoriť aj vlastné riešenie na kontrolu pomocou slovníka.  Táto kontrola je pre druhú časť zadania povinná! Heslo je nutné uchovávať v realnej databáze a vaše riešenie musi poskytovať funkcionalitu (konektivitu) na ukladanie hesla do vami zvolenej databazy (databaza s realny DBMS systemom).
+
+Následne je potrebné spísať správu o riešení zadania (ku každej podúlohe krátku analýzu problému, zvolený postup riešenia a dosiahnutý výsledok).
