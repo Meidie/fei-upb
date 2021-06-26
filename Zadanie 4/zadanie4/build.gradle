@@ -1,0 +1,39 @@
+
+plugins {
+    id 'java-library'
+    id 'eclipse'
+}
+
+apply plugin: "eclipse"
+
+group 'sk.stuba.fei.uim'
+description """Zadanie 4 UPB"""
+
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    maven {url 'https://repo.maven.apache.org/maven2'}
+}
+
+dependencies {
+
+	implementation 'com.h2database:h2:1.4.200'
+	implementation 'commons-io:commons-io:2.6'
+    testImplementation 'junit:junit:4.12'
+}
+
+jar {
+  manifest {
+    attributes(
+      'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
+      'Main-Class': 'sk.stuba.fei.uim.upb.PasswordSecurityApp'
+    )
+  }
+  from {
+    configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+  }
+}
