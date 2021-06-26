@@ -1,0 +1,3 @@
+# Zadanie 9: Zraniteľnosť web aplikácií
+
+Cieľom zadania je oboznámiť sa podrobnejšie s problematikou webových zraniteľností. Každá web aplikácia by pri finálnom testovaní funkčnosti mala byť testovaná aj z bezpečnostného hľadiska. K dispozícii je virtuálka ([link](https://uim.fei.stuba.sk/wp-content/uploads/2020/11/udpb.ova)) a návod k spusteniu virtualky so zraniteľným blogovým systémom ([link](https://uim.fei.stuba.sk/wp-content/uploads/2020/11/VirtualBoxSetup_zad8.pdf)). Web obsahuje 10 rôznych zraniteľností, ktoré sú popísané na hlavnej stránke (po prihlásení). Vašou úlohou je ich identifikovať pomocou nástrojov na testovanie zraniteľností web aplikácií a opraviť ich, svoje riešenie otestovať a popísať.
